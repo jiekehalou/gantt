@@ -1,0 +1,268 @@
+// @import (reference) "reset.less"; 使用 引入的 Less 文件，但不会 编译它。
+
+
+@import (reference) "theme.less";
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5 tahoma, arial;
+}
+
+
+address,
+cite,
+dfn,
+em,
+var {
+    font-style: normal;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: couriernew, courier, monospace;
+}
+
+small {
+    font-size: 12px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+legend {
+    color: #000;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.success {
+    color: #67c23a;
+}
+
+.warning {
+    color: #eb9e05;
+}
+
+.danger {
+    color: #fa5555;
+}
+
+.round(@radius: 5px) {
+    border-radius: @radius;
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+}
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+}
+
+img[src=""],
+img:not([src]) {
+    opacity: 0;
+}
+*[draggable = true] {
+    -khtml-user-drag: element;}     
+
+.noselction {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.no-wrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.shadow {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+li {
+    list-style: none;
+}
+
+
+body {
+    // position: relative;
+    background-color: #ECEFF1;
+    font-size: 14px;
+    color: @font-normal;
+    font-family: Helvetica, sans-serif, Arial;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.clearfix {
+    zoom: 1
+    
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+
+.border-box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+[hidden],
+.hidden {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-light {
+    color: @font-light;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+label {
+    color: @font-normal;
+    font-weight: 400;
+}
+
+
+
+.main-title {
+    // height: 28px;
+    line-height: 28px;
+    margin-bottom: 14px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.normal-title {
+    // height: 28px;
+    line-height: 28px;
+    margin-bottom: 14px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+}
+
+::-webkit-scrollbar {
+    background: #ccc;
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(37, 36, 36, 0.57);
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+    
+    /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+    
+// }
+
+  
